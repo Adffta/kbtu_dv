@@ -1,0 +1,4 @@
+button:hover,
+button:focus {
+    background: grey;
+}
