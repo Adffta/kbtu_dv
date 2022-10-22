@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>Scatter Plot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="legend" style="position: absolute; left: 300px;">
+        <span class="circle"></span>
+        <span>Circle Data</span>
+        <span class="rhomb"></span>
+        <span>Rhombe Data</span>
+    </div>
+
+    <div id="wrapper">
+        <div style="position:absolute; left: 330px; font-size: 20px">Scatter Plot</div>
+        <div id="graph" style="position:absolute; left: 100px; top:150px;"></div>
+
+        <div class="buttons">
+            <button id="refresh-button" style="position:absolute; left:310px; top:580px; margin:5px;padding: 5px; font-size: 14px;">Generate</button>
+            <button id="clear-button" style="position:absolute; left:390px; top:580px; margin:5px;padding: 5px; font-size: 14px;">Clear</button>
+        </div>
+    </div>
+
+<script src="d3.v6.js"></script>
+<script src="scatter.js"></script>
+
+</body>
+
+</html>
