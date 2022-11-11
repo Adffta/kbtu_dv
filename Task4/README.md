@@ -1,4 +1,4 @@
 Lesson 8 for Data Visualization
-Adjacency matrix
+Matrix
 
 ![Screenshot](screenshot.png)
