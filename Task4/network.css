@@ -1,0 +1,26 @@
+.grid {
+  stroke: #C51E3A;
+  stroke-width: 1px;
+  fill: 	#960018;
+}
+.arc {
+  stroke: #C51E3A;
+  fill: none;
+}
+.node {
+  fill: 	#FFC0CB;
+  stroke: #C51E3A;
+  stroke-width: 1px;
+}
+circle.active {
+  fill: #ED2839;
+}
+path.active {
+  stroke: #ED2839;
+}
+circle.source {
+  fill: #93C464;
+}
+circle.target {
+  fill: #41A368;
+}
